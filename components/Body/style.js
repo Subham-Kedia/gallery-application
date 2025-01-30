@@ -1,14 +1,12 @@
-import { StyleSheet, Dimensions } from "react-native";
-
-const windowWidth = Dimensions.get("window").width;
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
-    paddingTop: 0,
+    marginHorizontal: 12,
+    marginBottom: 12
   },
   imageContainer: {
-    marginHorizontal: 12,
-    marginBottom: 12,
+    marginTop: 12,
   },
   image: {
     width: "100%",
